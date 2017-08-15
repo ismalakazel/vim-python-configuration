@@ -12,6 +12,7 @@ colorscheme PaperColor
 " NERDTreeToggle
 map <C-n> :NERDTreeToggle<CR>
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 
 " Enable folding
 set foldmethod=indent
